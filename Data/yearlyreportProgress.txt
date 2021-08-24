@@ -1,0 +1,13 @@
+Development started
+
+System 1 Login, Logout, Navigate to Work items workflow reused from prev. project
+
+send email workflow reused
+
+Initialization state completed
+
+Get Transaction item transition completed
+
+Process state completed
+
+Testing and bug fixing in progress
