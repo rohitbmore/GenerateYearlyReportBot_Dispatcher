@@ -57,6 +57,8 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.Mail</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Add Queue Items" sap:VirtualizedContainerService.HintSize="759,862" sap2010:WorkflowViewState.IdRef="Sequence_5">
@@ -103,7 +105,7 @@
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="edda7651-1a38-4ec9-8c4e-fba3bc00ebd9" InformativeScreenshot="9b403068cd6af75b6c29100cb0d49cf8">
                   <ui:Target.Selector>
                     <InArgument x:TypeArguments="x:String">
-                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">String.Format("&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;&lt;webctrl aaname='{0}' tag='A' class='page-numbers' /&gt;", TransactionNumber)</mca:CSharpValue>
+                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">String.Format("&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;&lt;webctrl aaname='{0}' class='page-numbers' /&gt;", TransactionNumber)</mca:CSharpValue>
                     </InArgument>
                   </ui:Target.Selector>
                   <ui:Target.TimeoutMS>
