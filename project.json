@@ -41,7 +41,13 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a638778f-1cff-4ed5-9071-6d4bfb2ae03b",
+        "fileName": "Framework\\GetTransactionData_TestCase.xaml"
+      }
+    ],
     "modernBehavior": false
   },
   "expressionLanguage": "CSharp",
